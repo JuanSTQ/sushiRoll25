@@ -14,7 +14,5 @@ setInterval(()=>{
     backend.style.transform = "rotateY(0deg)"
     frontend2.style.transform= "rotateY(180deg)"
     backend2.style.transform = "rotateY(0deg)"
-
-
   }
 },2700)
