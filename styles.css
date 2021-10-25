@@ -11,7 +11,18 @@ body {
   padding: 0px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.textDinamic p {
+  font-weight: bold;
+  font-size: 20px;
+}
+.textDinamic{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px ;
 
+  height: 30px;
+}
 .container-svg{
   position: relative;
   height: 100vh;
