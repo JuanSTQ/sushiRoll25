@@ -670,7 +670,13 @@ section:nth-child(4) {
     height:320.8568px;
   
   }
-  
+  .container-svg{
+    background-image: none;
+
+  }
+  .hero p{
+    color: black;
+  }
   #showcase {
     position: absolute;
     top: -115px;
