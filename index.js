@@ -64,3 +64,16 @@ const eraser = (word, count)=>{
 }
 write("BIENVENIDO")
 
+const containerHeader = document.getElementById('students')
+console.log(containerHeader)
+const title1 = document.getElementById('title1')
+const observer = new IntersectionObserver((entries)=>{
+  console.log(entries[0].isIntersecting)
+  entries.filter((entry)=>{return entry.isIntersecting}).forEach(element => {
+    containerHeader.classList.remove('container_header_top1')
+  });
+  entries.filter((entry)=>{return entry.isIntersecting===false}).forEach(element=>{
+    containerHeader.classList.add('container_header_top1')
+  })
+}, {threshold:0.5})
+observer.observe(title1)
