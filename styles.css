@@ -12,6 +12,7 @@ body {
   padding: 0px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 .image-malla{
   width: 70%;
   margin: 0 auto;
@@ -70,11 +71,11 @@ body {
   margin-top: 6px;
 }
 .hero p:nth-child(3){
-  color: brown;
-  color: white;
-  font-weight: bold;
-  margin-bottom: 20px;
-  margin-top: 10px;
+  font-size: 1.2rem;
+  color: black;
+  font-weight: 700;
+  margin-bottom: 10px;
+  margin-top: 5px;
 }
 
 .content-info{
@@ -207,7 +208,7 @@ body {
   height: 300px;
 }
 
-.primary-button{
+/* .primary-button{
   margin: 0 auto;
   margin-top: 15px;
   background: no-repeat 0 100%;
@@ -221,6 +222,23 @@ body {
   height: 54px;
   transition: background-size .2s ease;
   width: 500px;
+} */
+.primary-button{
+  margin: 0 auto;
+  margin-top: 15px;
+  background: no-repeat 0 100%;
+  background-size: 0% 100%;
+  background-image: linear-gradient(#13a71f,#09aa31);
+  border-radius: 10px;
+  border: 2px solid #000000;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  height: 54px;
+  transition: background-size .2s ease;
+  width: 500px;
+  background-color: #FFD100;
+
 }
 .primary-button a{
   width: 100%;
@@ -229,7 +247,8 @@ body {
   padding: 0;
   display: block;
   text-decoration: none;
-  color: #C09A22;
+  font-size: 18px;
+  color: black;
   display: grid;
   place-items: center;
 }
@@ -238,13 +257,16 @@ body {
   margin-top: 25px;
   background: no-repeat 0% 100%;
   background-size: 100% 100%;
-  background-image: linear-gradient(#C09A22,#C09A22);
+  background-image: linear-gradient(#ddb42f,#ebbe2b);
   border-radius: 16px;
   cursor: pointer;
   font-weight: bold;
   font-size: 1rem;
   height: 54px;
   width: 500px;
+  border-radius: 10px;
+  border: 2px solid #000000;
+
 }
 .secundary-button a{
   width: 100%;
@@ -253,9 +275,10 @@ body {
   padding: 0;
   display: block;
   text-decoration: none;
-  color: white;
+  color: black;
   display: grid;
   place-items: center;
+  font-size: 18px;
 }
 .secundary-button:hover{
   opacity: 0.9;
@@ -721,6 +744,18 @@ section:nth-child(4) {
     -webkit-clip-path: polygon(0% 77%, 5% 18%, 47% 21%, 32% 67%);
   }
 }
+.container_header strong{
+  color: rgb(251, 255, 44);
+}
+.strong-header{
+  display: none;
+  color: rgb(251, 255, 44) !important;
+}
+.me2{
+  color: #000000;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
 @media (max-width: 1000px) {
     .iFrameY{
     width:600px;
@@ -755,7 +790,12 @@ section:nth-child(4) {
     height: 58px;
     font-size: 14px ;
   }
-  
+  .container_header strong{
+    display: none;
+  }
+  .strong-header{
+    display: block;
+  }
   .image-malla{
     width: 100%;
     margin: 0 auto;
