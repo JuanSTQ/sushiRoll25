@@ -301,16 +301,21 @@ body {
   background-color: #212121;
 }
 .container-action p:nth-child(1){
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 .container-action a:nth-child(2){
+  font-size: 1.9rem;
   color: white;
   font-weight: 300;
   text-decoration: line-through;
 }
 .container-action p:nth-child(3){
   color: #C09A22;
-  font-size: 2rem;
+  font-size: 3.5rem;
+}
+.container_header_top1 h2{
+    
+  color: white;
 }
 @media (max-width:1920px){
   .me{
@@ -479,6 +484,9 @@ section:nth-child(1) {
   animation: section-1 8s both infinite;
 }
 
+.contentText .me{
+  text-align: justify;
+}
 @-moz-keyframes section-1 {
   0%, 20%, 100% {
     background: url("https://images.unsplash.com/photo-1547626740-02cb6aed9ef8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80") 0% 0%;
@@ -754,13 +762,13 @@ section:nth-child(4) {
   }
 
   .container-action p:nth-child(1){
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   .container-action a:nth-child(2){
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
   .container-action p:nth-child(3){
-    font-size: 1.5rem;
+    font-size: 2.5rem;
   }
   .card{
     width: 100%;
@@ -833,15 +841,18 @@ section:nth-child(4) {
   }
 }
 @media (max-width: 400px) {
-
+  .container_header_top1 h2{
+    
+    font-size: 1rem;
+  }
   .container-action p:nth-child(1){
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
   .container-action a:nth-child(2){
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
   .container-action p:nth-child(3){
-    font-size: 1.2rem;
+    font-size: 2rem;
   }
   .container-action{
     height: 200px;
@@ -870,6 +881,9 @@ section:nth-child(4) {
 @media (max-width: 360px) {
   .container-svg{
     height: 70vh;
+  }
+  .me{
+    font-size: 13px;
   }
   .iFrameY{
     width:318px;
