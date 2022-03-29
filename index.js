@@ -41,7 +41,7 @@ const write = (word)=>{
 }
 //CEO DevFolio,Web Developer,Web Designer,Frontend Developer,Graphic Designer
 const getWord = (beforeWord)=>{
-  const messages = ["INSCRIBETE 🍹", "ÚLTIMOS CUPOS", "🍹🍹🍹", "80% DSCTO"];
+  const messages = ["INSCRIBETE 🍣", "ÚLTIMOS CUPOS", "🍣🍣🍣", "80% DSCTO"];
   const index=messages.indexOf(beforeWord)
   if(index===messages.length-1){
     return messages[0]
