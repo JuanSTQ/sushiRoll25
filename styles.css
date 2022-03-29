@@ -48,7 +48,7 @@ body {
   font-family: sans-serif;
   font-size: 30px;
   font-weight: bold;
-  color: #C09A22;
+  color: #FED301;
 
 }
 
@@ -389,17 +389,17 @@ body {
 
 .card-side.back {
   transform: rotateY(-180deg);
-  background-image: url("https://images.unsplash.com/photo-1544145945-f90425340c7e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+  background-image: url("https://images.pexels.com/photos/9618223/pexels-photo-9618223.jpeg?cs=srgb&dl=pexels-anastasia-belousova-9618223.jpg&fm=jpg");
   background-size: cover;
   
 }
 
 .card-side.front {
-  background-image: url("https://images.unsplash.com/photo-1510626176961-4b57d4fbad03?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+  background-image: url("https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=327&q=80");
   background-size: cover;
 
 }
-
+/* https://images.unsplash.com/photo-1582450871972-ab5ca641643d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80 */
 .card-side.back2 {
   transform: rotateY(-180deg);
   background-image: url("./assets/crea.png");
@@ -423,7 +423,7 @@ body {
 }
 
 .card-side.front4 {
-  background-image: url("https://images.unsplash.com/photo-1612083111364-90edbf4132aa?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=687&q=80");
+  background-image: url("https://images.unsplash.com/photo-1636425732174-8700a53e8dd4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80");
   background-size: cover;
 }
 .metitle2{
@@ -770,6 +770,12 @@ section:nth-child(4) {
     background-image: none;
 
   }
+  .hero h1{
+
+    color: #C09A22;
+
+  
+  }
   .hero p{
     color: black;
   }
@@ -829,6 +835,10 @@ section:nth-child(4) {
     -ms-transform: scale(0.45, 0.45);
     -webkit-transform: scale(0.45, 0.45);
     transform: scale(0.45, 0.45);
+  }
+  .card-side.front {
+    background-image: url("https://images.unsplash.com/photo-1628676825875-031ad212c31e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80");
+  
   }
 }
 @media (max-width: 510px) {
