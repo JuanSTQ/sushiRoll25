@@ -41,7 +41,7 @@ const write = (word)=>{
 }
 //CEO DevFolio,Web Developer,Web Designer,Frontend Developer,Graphic Designer
 const getWord = (beforeWord)=>{
-  const messages = ["INSCRIBETE 🍣", "ÚLTIMOS CUPOS", "🍣🍣🍣", "60% DE DESCUENTO!"];
+  const messages = ["INSCRIBETE 🍣", "ÚLTIMOS CUPOS", "🍣🍣🍣", "80% DE DESCUENTO!"];
   const index=messages.indexOf(beforeWord)
   if(index===messages.length-1){
     return messages[0]
@@ -62,7 +62,7 @@ const eraser = (word, count)=>{
     c++
   },30)
 }
-write("60% DE DESCUENTO!")
+write("80% DE DESCUENTO!")
 
 const containerHeader = document.getElementById('students')
 console.log(containerHeader)
